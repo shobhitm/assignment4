@@ -1,0 +1,33 @@
+<section id="add">  
+  <form action="/" method="post">  
+    
+    <table>
+      <tr>
+         <td>
+            <textarea name="content" placeholder="Your nickname"></textarea>
+            <textarea name="announce" placeholder="Your announcement&hellip;"></textarea>
+           <input type="submit" value="Submit"> 
+           <div style= "align:center;margin:30px 0 0">
+           <p><a href = "/users.xml">users in xml</a></p></center>
+           <p><a href = "/notes.xml">notes in xml</a></p>
+           <p><a href = "/users.json">users in json</a></p>
+           <p><a href = "/users.json">users in xml</a></p></div>
+         </td>
+         <td >
+         <% @notes.each do |note| %>  
+           <article >  
+           <p class= "announcement">  
+             <%= note.announce %>     
+            </p>    
+         <p class="meta">By <u><%=note.content%></u> on <%= note.created_at %>
+         <span><a href="/<%= note.id %>">[edit]</a></span> 
+         </p>
+           </article>  
+           <% end %>
+           <p><center><a href ="/">load 4</center></p>
+         </td>
+      </tr>
+    </table>
+  </form>  
+</section> 
+

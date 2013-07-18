@@ -1,0 +1,104 @@
+body {  
+    margin: 35px auto;  
+    vertical-align: left;
+}  
+  
+header { 
+    width: 200px 
+    text-align: left;  
+    margin: 20px 0 20px;  
+}  
+  
+header h1 {  
+    margin: 20px 50px 20px;
+    display: inline;  
+    font-size: 64px;  
+}  
+  
+header h1 a:link, header h1 a:visited {  
+    color: black;  
+    text-decoration: none;  
+}  
+  
+header h2 {  
+    font-size: 16px;  
+    font-style: italic;  
+    color: #999;  
+}  
+  
+#main {  
+     
+      
+}  
+  
+#add {  
+    margin: 0 0 20px;  
+}  
+  
+#add textarea {  
+    margin: 0 20px;
+    height: 10px;  
+    width: 200px;  
+    padding: 10px;  
+    border: 1px solid black;  
+}  
+  
+#add input {  
+    height: 50px;  
+    width: 100px;  
+    margin: 30px 50px 0;  
+    border: 1px solid black;  
+    background: grey;  
+}  
+  
+#edit textarea {  
+    margin: 10px;
+    height: 10px;  
+    width: 200px;  
+    padding: 20px;  
+    border: 1px solid black;  
+}  
+  
+#edit input[type=submit] {  
+    height: 50px;  
+    width: 100px;  
+    margin: 50px 0 0;  
+    border: 1px solid black;  
+    background: grey;  
+}  
+  
+#edit input[type=checkbox] {  
+    height: 50px;  
+    width: 20px;  
+}  
+  
+article {  
+    width: 640px; 
+    margin: -20px 50px 20px;
+      
+    border-top: none;  
+    padding: 10px 100px; 
+    border-left: thin solid black; 
+}  
+  
+article span {  
+    font-size: 0.8em;  
+}  
+  
+p {  
+    margin: 0 0 5px;  
+}  
+  
+.announcement{
+    font-size: 26px;
+
+}
+  
+.links a {  
+    display: block;  
+    text-decoration: none;  
+}  
+
+.new{
+    margin-top: -220px
+}
